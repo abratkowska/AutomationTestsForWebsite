@@ -1,0 +1,536 @@
+[1606548160.901][INFO]: Starting ChromeDriver 87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355}) on port 43825
+[1606548160.901][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1606548161.133][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "/Users/aleksandrabratkowska/Desktop/RecruitmentTask/build/downloads",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "/Users/aleksandrabratkowska/Desktop/RecruitmentTask/build/downloads",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1606548161.134][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/Users/aleksandrabratkowska/Desktop/RecruitmentTask/build/downloads"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1606548161.134][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1606548161.134][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/x8/2p4jrcr96q94g0q7grwl03_c0000gn/T/.com.google.Chrome.CisPNs data:,
+[1606548162.152][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1606548162.159][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1606548162.229][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "87.0.4280.67",
+      "chrome": {
+         "chromedriverVersion": "87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355})",
+         "userDataDir": "/var/folders/x8/2p4jrcr96q94g0q7grwl03_c0000gn/T/.com.google.Chrome.CisPNs"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:49900"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac os x",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "1e5940ffdb59d6c8519fc08a528c9841"
+}
+[1606548162.296][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1606548162.296][INFO]: Waiting for pending navigations...
+[1606548162.297][INFO]: Done waiting for pending navigations. Status: ok
+[1606548162.400][INFO]: Waiting for pending navigations...
+[1606548162.401][INFO]: Done waiting for pending navigations. Status: ok
+[1606548162.401][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 22,
+   "y": 47
+}
+[1606548162.410][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] COMMAND Navigate {
+   "url": "http://parabank.parasoft.com/parabank/admin.htm"
+}
+[1606548162.410][INFO]: Waiting for pending navigations...
+[1606548162.411][INFO]: Done waiting for pending navigations. Status: ok
+[1606548162.985][INFO]: Waiting for pending navigations...
+[1606548164.967][INFO]: Done waiting for pending navigations. Status: ok
+[1606548164.967][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] RESPONSE Navigate
+[1606548171.992][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[href='register.htm']"
+}
+[1606548171.992][INFO]: Waiting for pending navigations...
+[1606548171.994][INFO]: Done waiting for pending navigations. Status: ok
+[1606548172.011][INFO]: Waiting for pending navigations...
+[1606548172.012][INFO]: Done waiting for pending navigations. Status: ok
+[1606548172.012][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[href='register.htm']"}
+  (Session info: chrome=87.0.4280.67)
+[1606548173.200][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[href='register.htm']"
+}
+[1606548173.200][INFO]: Waiting for pending navigations...
+[1606548173.202][INFO]: Done waiting for pending navigations. Status: ok
+[1606548173.212][INFO]: Waiting for pending navigations...
+[1606548173.213][INFO]: Done waiting for pending navigations. Status: ok
+[1606548173.214][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[href='register.htm']"}
+  (Session info: chrome=87.0.4280.67)
+[1606548173.426][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[href='register.htm']"
+}
+[1606548173.426][INFO]: Waiting for pending navigations...
+[1606548173.428][INFO]: Done waiting for pending navigations. Status: ok
+[1606548173.436][INFO]: Waiting for pending navigations...
+[1606548173.437][INFO]: Done waiting for pending navigations. Status: ok
+[1606548173.437][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[href='register.htm']"}
+  (Session info: chrome=87.0.4280.67)
+[1606548173.650][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[href='register.htm']"
+}
+[1606548173.650][INFO]: Waiting for pending navigations...
+[1606548173.652][INFO]: Done waiting for pending navigations. Status: ok
+[1606548173.658][INFO]: Waiting for pending navigations...
+[1606548173.659][INFO]: Done waiting for pending navigations. Status: ok
+[1606548173.659][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[href='register.htm']"}
+  (Session info: chrome=87.0.4280.67)
+[1606548173.871][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[href='register.htm']"
+}
+[1606548173.871][INFO]: Waiting for pending navigations...
+[1606548173.873][INFO]: Done waiting for pending navigations. Status: ok
+[1606548173.882][INFO]: Waiting for pending navigations...
+[1606548173.883][INFO]: Done waiting for pending navigations. Status: ok
+[1606548173.883][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[href='register.htm']"}
+  (Session info: chrome=87.0.4280.67)
+[1606548174.093][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[href='register.htm']"
+}
+[1606548174.093][INFO]: Waiting for pending navigations...
+[1606548174.095][INFO]: Done waiting for pending navigations. Status: ok
+[1606548174.103][INFO]: Waiting for pending navigations...
+[1606548174.103][INFO]: Done waiting for pending navigations. Status: ok
+[1606548174.103][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[href='register.htm']"}
+  (Session info: chrome=87.0.4280.67)
+[1606548174.315][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[href='register.htm']"
+}
+[1606548174.315][INFO]: Waiting for pending navigations...
+[1606548174.316][INFO]: Done waiting for pending navigations. Status: ok
+[1606548174.321][INFO]: Waiting for pending navigations...
+[1606548174.322][INFO]: Done waiting for pending navigations. Status: ok
+[1606548174.322][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[href='register.htm']"}
+  (Session info: chrome=87.0.4280.67)
+[1606548174.532][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[href='register.htm']"
+}
+[1606548174.532][INFO]: Waiting for pending navigations...
+[1606548174.532][INFO]: Done waiting for pending navigations. Status: ok
+[1606548174.536][INFO]: Waiting for pending navigations...
+[1606548174.536][INFO]: Done waiting for pending navigations. Status: ok
+[1606548174.536][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[href='register.htm']"}
+  (Session info: chrome=87.0.4280.67)
+[1606548174.743][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[href='register.htm']"
+}
+[1606548174.743][INFO]: Waiting for pending navigations...
+[1606548174.743][INFO]: Done waiting for pending navigations. Status: ok
+[1606548174.748][INFO]: Waiting for pending navigations...
+[1606548174.748][INFO]: Done waiting for pending navigations. Status: ok
+[1606548174.748][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[href='register.htm']"}
+  (Session info: chrome=87.0.4280.67)
+[1606548174.954][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[href='register.htm']"
+}
+[1606548174.954][INFO]: Waiting for pending navigations...
+[1606548174.956][INFO]: Done waiting for pending navigations. Status: ok
+[1606548174.961][INFO]: Waiting for pending navigations...
+[1606548174.962][INFO]: Done waiting for pending navigations. Status: ok
+[1606548174.962][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[href='register.htm']"}
+  (Session info: chrome=87.0.4280.67)
+[1606548175.171][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[href='register.htm']"
+}
+[1606548175.171][INFO]: Waiting for pending navigations...
+[1606548175.173][INFO]: Done waiting for pending navigations. Status: ok
+[1606548175.180][INFO]: Waiting for pending navigations...
+[1606548175.181][INFO]: Done waiting for pending navigations. Status: ok
+[1606548175.181][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[href='register.htm']"}
+  (Session info: chrome=87.0.4280.67)
+[1606548175.394][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[href='register.htm']"
+}
+[1606548175.394][INFO]: Waiting for pending navigations...
+[1606548175.395][INFO]: Done waiting for pending navigations. Status: ok
+[1606548175.402][INFO]: Waiting for pending navigations...
+[1606548175.403][INFO]: Done waiting for pending navigations. Status: ok
+[1606548175.403][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[href='register.htm']"}
+  (Session info: chrome=87.0.4280.67)
+[1606548175.611][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[href='register.htm']"
+}
+[1606548175.611][INFO]: Waiting for pending navigations...
+[1606548175.613][INFO]: Done waiting for pending navigations. Status: ok
+[1606548175.620][INFO]: Waiting for pending navigations...
+[1606548175.621][INFO]: Done waiting for pending navigations. Status: ok
+[1606548175.621][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[href='register.htm']"}
+  (Session info: chrome=87.0.4280.67)
+[1606548175.833][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[href='register.htm']"
+}
+[1606548175.834][INFO]: Waiting for pending navigations...
+[1606548175.835][INFO]: Done waiting for pending navigations. Status: ok
+[1606548175.842][INFO]: Waiting for pending navigations...
+[1606548175.843][INFO]: Done waiting for pending navigations. Status: ok
+[1606548175.843][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[href='register.htm']"}
+  (Session info: chrome=87.0.4280.67)
+[1606548176.065][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1606548176.065][INFO]: Waiting for pending navigations...
+[1606548176.066][INFO]: Done waiting for pending navigations. Status: ok
+[1606548176.070][INFO]: Waiting for pending navigations...
+[1606548176.071][INFO]: Done waiting for pending navigations. Status: ok
+[1606548176.071][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] RESPONSE ExecuteScript "\u003Chtml>\u003Chead>\u003Cstyle type=\"text/css\">@charset \"UTF-8\";[ng\\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\\:form{displa..."
+[1606548176.077][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] COMMAND Screenshot {
+
+}
+[1606548176.077][INFO]: Waiting for pending navigations...
+[1606548176.078][INFO]: Done waiting for pending navigations. Status: ok
+[1606548176.715][INFO]: Waiting for pending navigations...
+[1606548176.716][INFO]: Done waiting for pending navigations. Status: ok
+[1606548176.716][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAACqwAAAViCAYAAAB9RE8/AAABLGlDQ1BTa2lhAAAokX2RPUvDUBSGH4uLVURQ0cEhTrr40VaqBR1ssUXcWoXqlqahiG0MaUT3ri7+A2dnR39AZwUnBxd3QXBwqe9NhwSknsvJ++TNuTfn3gupRRSpGeh4YVCtFK366ZlFImyn6zM6x..."
+[1606548176.799][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[href='register.htm']"
+}
+[1606548176.800][INFO]: Waiting for pending navigations...
+[1606548176.802][INFO]: Done waiting for pending navigations. Status: ok
+[1606548176.807][INFO]: Waiting for pending navigations...
+[1606548176.808][INFO]: Done waiting for pending navigations. Status: ok
+[1606548176.808][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[href='register.htm']"}
+  (Session info: chrome=87.0.4280.67)
+[1606548177.012][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[href='register.htm']"
+}
+[1606548177.013][INFO]: Waiting for pending navigations...
+[1606548177.013][INFO]: Done waiting for pending navigations. Status: ok
+[1606548177.016][INFO]: Waiting for pending navigations...
+[1606548177.017][INFO]: Done waiting for pending navigations. Status: ok
+[1606548177.017][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[href='register.htm']"}
+  (Session info: chrome=87.0.4280.67)
+[1606548177.226][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[href='register.htm']"
+}
+[1606548177.226][INFO]: Waiting for pending navigations...
+[1606548177.227][INFO]: Done waiting for pending navigations. Status: ok
+[1606548177.231][INFO]: Waiting for pending navigations...
+[1606548177.231][INFO]: Done waiting for pending navigations. Status: ok
+[1606548177.231][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[href='register.htm']"}
+  (Session info: chrome=87.0.4280.67)
+[1606548177.436][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[href='register.htm']"
+}
+[1606548177.436][INFO]: Waiting for pending navigations...
+[1606548177.437][INFO]: Done waiting for pending navigations. Status: ok
+[1606548177.440][INFO]: Waiting for pending navigations...
+[1606548177.441][INFO]: Done waiting for pending navigations. Status: ok
+[1606548177.441][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[href='register.htm']"}
+  (Session info: chrome=87.0.4280.67)
+[1606548177.647][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[href='register.htm']"
+}
+[1606548177.647][INFO]: Waiting for pending navigations...
+[1606548177.649][INFO]: Done waiting for pending navigations. Status: ok
+[1606548177.659][INFO]: Waiting for pending navigations...
+[1606548177.660][INFO]: Done waiting for pending navigations. Status: ok
+[1606548177.660][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[href='register.htm']"}
+  (Session info: chrome=87.0.4280.67)
+[1606548177.869][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[href='register.htm']"
+}
+[1606548177.869][INFO]: Waiting for pending navigations...
+[1606548177.870][INFO]: Done waiting for pending navigations. Status: ok
+[1606548177.873][INFO]: Waiting for pending navigations...
+[1606548177.874][INFO]: Done waiting for pending navigations. Status: ok
+[1606548177.874][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[href='register.htm']"}
+  (Session info: chrome=87.0.4280.67)
+[1606548178.083][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[href='register.htm']"
+}
+[1606548178.083][INFO]: Waiting for pending navigations...
+[1606548178.084][INFO]: Done waiting for pending navigations. Status: ok
+[1606548178.088][INFO]: Waiting for pending navigations...
+[1606548178.089][INFO]: Done waiting for pending navigations. Status: ok
+[1606548178.089][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[href='register.htm']"}
+  (Session info: chrome=87.0.4280.67)
+[1606548178.299][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[href='register.htm']"
+}
+[1606548178.299][INFO]: Waiting for pending navigations...
+[1606548178.300][INFO]: Done waiting for pending navigations. Status: ok
+[1606548178.303][INFO]: Waiting for pending navigations...
+[1606548178.304][INFO]: Done waiting for pending navigations. Status: ok
+[1606548178.304][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[href='register.htm']"}
+  (Session info: chrome=87.0.4280.67)
+[1606548178.508][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[href='register.htm']"
+}
+[1606548178.508][INFO]: Waiting for pending navigations...
+[1606548178.508][INFO]: Done waiting for pending navigations. Status: ok
+[1606548178.512][INFO]: Waiting for pending navigations...
+[1606548178.513][INFO]: Done waiting for pending navigations. Status: ok
+[1606548178.513][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[href='register.htm']"}
+  (Session info: chrome=87.0.4280.67)
+[1606548178.723][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[href='register.htm']"
+}
+[1606548178.723][INFO]: Waiting for pending navigations...
+[1606548178.724][INFO]: Done waiting for pending navigations. Status: ok
+[1606548178.730][INFO]: Waiting for pending navigations...
+[1606548178.731][INFO]: Done waiting for pending navigations. Status: ok
+[1606548178.731][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[href='register.htm']"}
+  (Session info: chrome=87.0.4280.67)
+[1606548178.937][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[href='register.htm']"
+}
+[1606548178.937][INFO]: Waiting for pending navigations...
+[1606548178.937][INFO]: Done waiting for pending navigations. Status: ok
+[1606548178.941][INFO]: Waiting for pending navigations...
+[1606548178.942][INFO]: Done waiting for pending navigations. Status: ok
+[1606548178.942][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[href='register.htm']"}
+  (Session info: chrome=87.0.4280.67)
+[1606548179.155][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[href='register.htm']"
+}
+[1606548179.155][INFO]: Waiting for pending navigations...
+[1606548179.156][INFO]: Done waiting for pending navigations. Status: ok
+[1606548179.165][INFO]: Waiting for pending navigations...
+[1606548179.166][INFO]: Done waiting for pending navigations. Status: ok
+[1606548179.166][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[href='register.htm']"}
+  (Session info: chrome=87.0.4280.67)
+[1606548179.377][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[href='register.htm']"
+}
+[1606548179.377][INFO]: Waiting for pending navigations...
+[1606548179.379][INFO]: Done waiting for pending navigations. Status: ok
+[1606548179.390][INFO]: Waiting for pending navigations...
+[1606548179.391][INFO]: Done waiting for pending navigations. Status: ok
+[1606548179.391][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[href='register.htm']"}
+  (Session info: chrome=87.0.4280.67)
+[1606548179.600][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[href='register.htm']"
+}
+[1606548179.600][INFO]: Waiting for pending navigations...
+[1606548179.602][INFO]: Done waiting for pending navigations. Status: ok
+[1606548179.609][INFO]: Waiting for pending navigations...
+[1606548179.610][INFO]: Done waiting for pending navigations. Status: ok
+[1606548179.610][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[href='register.htm']"}
+  (Session info: chrome=87.0.4280.67)
+[1606548179.822][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[href='register.htm']"
+}
+[1606548179.822][INFO]: Waiting for pending navigations...
+[1606548179.823][INFO]: Done waiting for pending navigations. Status: ok
+[1606548179.830][INFO]: Waiting for pending navigations...
+[1606548179.831][INFO]: Done waiting for pending navigations. Status: ok
+[1606548179.831][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[href='register.htm']"}
+  (Session info: chrome=87.0.4280.67)
+[1606548180.040][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[href='register.htm']"
+}
+[1606548180.040][INFO]: Waiting for pending navigations...
+[1606548180.042][INFO]: Done waiting for pending navigations. Status: ok
+[1606548180.049][INFO]: Waiting for pending navigations...
+[1606548180.050][INFO]: Done waiting for pending navigations. Status: ok
+[1606548180.050][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[href='register.htm']"}
+  (Session info: chrome=87.0.4280.67)
+[1606548180.258][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[href='register.htm']"
+}
+[1606548180.258][INFO]: Waiting for pending navigations...
+[1606548180.260][INFO]: Done waiting for pending navigations. Status: ok
+[1606548180.269][INFO]: Waiting for pending navigations...
+[1606548180.270][INFO]: Done waiting for pending navigations. Status: ok
+[1606548180.270][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[href='register.htm']"}
+  (Session info: chrome=87.0.4280.67)
+[1606548180.477][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[href='register.htm']"
+}
+[1606548180.477][INFO]: Waiting for pending navigations...
+[1606548180.478][INFO]: Done waiting for pending navigations. Status: ok
+[1606548180.485][INFO]: Waiting for pending navigations...
+[1606548180.486][INFO]: Done waiting for pending navigations. Status: ok
+[1606548180.486][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[href='register.htm']"}
+  (Session info: chrome=87.0.4280.67)
+[1606548180.693][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[href='register.htm']"
+}
+[1606548180.693][INFO]: Waiting for pending navigations...
+[1606548180.694][INFO]: Done waiting for pending navigations. Status: ok
+[1606548180.697][INFO]: Waiting for pending navigations...
+[1606548180.698][INFO]: Done waiting for pending navigations. Status: ok
+[1606548180.698][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[href='register.htm']"}
+  (Session info: chrome=87.0.4280.67)
+[1606548180.904][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1606548180.904][INFO]: Waiting for pending navigations...
+[1606548180.904][INFO]: Done waiting for pending navigations. Status: ok
+[1606548180.907][INFO]: Waiting for pending navigations...
+[1606548180.907][INFO]: Done waiting for pending navigations. Status: ok
+[1606548180.907][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] RESPONSE ExecuteScript "\u003Chtml>\u003Chead>\u003Cstyle type=\"text/css\">@charset \"UTF-8\";[ng\\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\\:form{displa..."
+[1606548180.910][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] COMMAND Screenshot {
+
+}
+[1606548180.910][INFO]: Waiting for pending navigations...
+[1606548180.911][INFO]: Done waiting for pending navigations. Status: ok
+[1606548181.469][INFO]: Waiting for pending navigations...
+[1606548181.470][INFO]: Done waiting for pending navigations. Status: ok
+[1606548181.470][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAACqwAAAViCAYAAAB9RE8/AAABLGlDQ1BTa2lhAAAokX2RPUvDUBSGH4uLVURQ0cEhTrr40VaqBR1ssUXcWoXqlqahiG0MaUT3ri7+A2dnR39AZwUnBxd3QXBwqe9NhwSknsvJ++TNuTfn3gupRRSpGeh4YVCtFK366ZlFImyn6zM6x..."
+[1606549238.392][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[href='register.htm']"
+}
+[1606549238.394][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1606549238.401][INFO]: [1e5940ffdb59d6c8519fc08a528c9841] RESPONSE FindElement ERROR no such window: window was already closed
+  (Session info: chrome=87.0.4280.67)

@@ -1,0 +1,215 @@
+[1606560145.699][INFO]: Starting ChromeDriver 87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355}) on port 11845
+[1606560145.699][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1606560145.971][INFO]: [3bc5469dbade03bedf285b134c5fb316] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "/Users/aleksandrabratkowska/Desktop/RecruitmentTask/build/downloads",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "/Users/aleksandrabratkowska/Desktop/RecruitmentTask/build/downloads",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1606560145.972][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/Users/aleksandrabratkowska/Desktop/RecruitmentTask/build/downloads"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1606560145.972][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1606560145.973][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/x8/2p4jrcr96q94g0q7grwl03_c0000gn/T/.com.google.Chrome.qXKcyz data:,
+[1606560147.323][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1606560147.338][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1606560147.357][INFO]: [3bc5469dbade03bedf285b134c5fb316] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "87.0.4280.67",
+      "chrome": {
+         "chromedriverVersion": "87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355})",
+         "userDataDir": "/var/folders/x8/2p4jrcr96q94g0q7grwl03_c0000gn/T/.com.google.Chrome.qXKcyz"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:52933"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac os x",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "3bc5469dbade03bedf285b134c5fb316"
+}
+[1606560147.431][INFO]: [3bc5469dbade03bedf285b134c5fb316] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1606560147.431][INFO]: Waiting for pending navigations...
+[1606560147.432][INFO]: Done waiting for pending navigations. Status: ok
+[1606560147.537][INFO]: Waiting for pending navigations...
+[1606560147.537][INFO]: Done waiting for pending navigations. Status: ok
+[1606560147.538][INFO]: [3bc5469dbade03bedf285b134c5fb316] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 22,
+   "y": 47
+}
+[1606560147.547][INFO]: [3bc5469dbade03bedf285b134c5fb316] COMMAND Navigate {
+   "url": "https://www.ryanair.com/us/en"
+}
+[1606560147.547][INFO]: Waiting for pending navigations...
+[1606560147.548][INFO]: Done waiting for pending navigations. Status: ok
+[1606560148.232][INFO]: Waiting for pending navigations...
+[1606560151.255][INFO]: Done waiting for pending navigations. Status: ok
+[1606560151.255][INFO]: [3bc5469dbade03bedf285b134c5fb316] RESPONSE Navigate
+[1606560151.463][INFO]: [3bc5469dbade03bedf285b134c5fb316] COMMAND FindElement {
+   "using": "xpath",
+   "value": "button[data-test='navigation-menu-signin']"
+}
+[1606560151.465][INFO]: Waiting for pending navigations...
+[1606560151.467][INFO]: Done waiting for pending navigations. Status: ok
+[1606560151.502][INFO]: Waiting for pending navigations...
+[1606560151.514][INFO]: Done waiting for pending navigations. Status: ok
+[1606560151.532][INFO]: [3bc5469dbade03bedf285b134c5fb316] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"button[data-test='navigation-menu-signin']"}
+  (Session info: chrome=87.0.4280.67)
+[1606560152.457][INFO]: [3bc5469dbade03bedf285b134c5fb316] COMMAND FindElement {
+   "using": "css selector",
+   "value": "//button[@class='content__link1' and contains(text(),'Registration')]"
+}
+[1606560152.457][INFO]: Waiting for pending navigations...
+[1606560152.458][INFO]: Done waiting for pending navigations. Status: ok
+[1606560152.479][INFO]: Waiting for pending navigations...
+[1606560152.479][INFO]: Done waiting for pending navigations. Status: ok
+[1606560152.480][INFO]: [3bc5469dbade03bedf285b134c5fb316] RESPONSE FindElement ERROR invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=87.0.4280.67)
+[1606560152.493][INFO]: [3bc5469dbade03bedf285b134c5fb316] COMMAND FindElement {
+   "using": "xpath",
+   "value": "button[data-test='navigation-menu-signin']"
+}
+[1606560152.493][INFO]: Waiting for pending navigations...
+[1606560152.494][INFO]: Done waiting for pending navigations. Status: ok
+[1606560152.501][INFO]: Waiting for pending navigations...
+[1606560152.501][INFO]: Done waiting for pending navigations. Status: ok
+[1606560152.501][INFO]: [3bc5469dbade03bedf285b134c5fb316] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"button[data-test='navigation-menu-signin']"}
+  (Session info: chrome=87.0.4280.67)
+[1606560152.510][INFO]: [3bc5469dbade03bedf285b134c5fb316] COMMAND FindElement {
+   "using": "css selector",
+   "value": "//button[@class='content__link1' and contains(text(),'Registration')]"
+}
+[1606560152.510][INFO]: Waiting for pending navigations...
+[1606560152.513][INFO]: Done waiting for pending navigations. Status: ok
+[1606560152.520][INFO]: Waiting for pending navigations...
+[1606560152.521][INFO]: Done waiting for pending navigations. Status: ok
+[1606560152.521][INFO]: [3bc5469dbade03bedf285b134c5fb316] RESPONSE FindElement ERROR invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=87.0.4280.67)
+[1606560153.670][INFO]: [3bc5469dbade03bedf285b134c5fb316] COMMAND FindElement {
+   "using": "xpath",
+   "value": "button[data-test='navigation-menu-signin']"
+}
+[1606560153.670][INFO]: Waiting for pending navigations...
+[1606560153.671][INFO]: Done waiting for pending navigations. Status: ok
+[1606560153.677][INFO]: Waiting for pending navigations...
+[1606560153.678][INFO]: Done waiting for pending navigations. Status: ok
+[1606560153.678][INFO]: [3bc5469dbade03bedf285b134c5fb316] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"button[data-test='navigation-menu-signin']"}
+  (Session info: chrome=87.0.4280.67)

@@ -1,0 +1,366 @@
+[1606490506.822][INFO]: Starting ChromeDriver 87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355}) on port 31272
+[1606490506.823][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1606490507.101][INFO]: [dd38b3b3dcd0cbd7abc9297bb2088ceb] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "/Users/aleksandrabratkowska/Desktop/RecruitmentTask/build/downloads",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "/Users/aleksandrabratkowska/Desktop/RecruitmentTask/build/downloads",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1606490507.103][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/Users/aleksandrabratkowska/Desktop/RecruitmentTask/build/downloads"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1606490507.104][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1606490507.104][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/x8/2p4jrcr96q94g0q7grwl03_c0000gn/T/.com.google.Chrome.uLxr2v data:,
+[1606490508.191][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1606490508.196][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1606490508.247][INFO]: [dd38b3b3dcd0cbd7abc9297bb2088ceb] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "87.0.4280.67",
+      "chrome": {
+         "chromedriverVersion": "87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355})",
+         "userDataDir": "/var/folders/x8/2p4jrcr96q94g0q7grwl03_c0000gn/T/.com.google.Chrome.uLxr2v"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:63326"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac os x",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "dd38b3b3dcd0cbd7abc9297bb2088ceb"
+}
+[1606490508.309][INFO]: [dd38b3b3dcd0cbd7abc9297bb2088ceb] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1606490508.309][INFO]: Waiting for pending navigations...
+[1606490508.310][INFO]: Done waiting for pending navigations. Status: ok
+[1606490508.413][INFO]: Waiting for pending navigations...
+[1606490508.414][INFO]: Done waiting for pending navigations. Status: ok
+[1606490508.414][INFO]: [dd38b3b3dcd0cbd7abc9297bb2088ceb] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 22,
+   "y": 47
+}
+[1606490508.420][INFO]: [dd38b3b3dcd0cbd7abc9297bb2088ceb] COMMAND Navigate {
+   "url": "https://ultimateqa.com/dummy-automation-websites/"
+}
+[1606490508.420][INFO]: Waiting for pending navigations...
+[1606490508.421][INFO]: Done waiting for pending navigations. Status: ok
+[1606490508.944][INFO]: Waiting for pending navigations...
+[1606490510.090][INFO]: Done waiting for pending navigations. Status: ok
+[1606490510.090][INFO]: [dd38b3b3dcd0cbd7abc9297bb2088ceb] RESPONSE Navigate
+[1606490510.121][INFO]: [dd38b3b3dcd0cbd7abc9297bb2088ceb] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[contains(text(),'Register')]"
+}
+[1606490510.121][INFO]: Waiting for pending navigations...
+[1606490510.122][INFO]: Done waiting for pending navigations. Status: ok
+[1606490510.133][INFO]: Waiting for pending navigations...
+[1606490510.133][INFO]: Done waiting for pending navigations. Status: ok
+[1606490510.133][INFO]: [dd38b3b3dcd0cbd7abc9297bb2088ceb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Register')]"}
+  (Session info: chrome=87.0.4280.67)
+[1606490510.378][INFO]: [dd38b3b3dcd0cbd7abc9297bb2088ceb] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[contains(text(),'Register')]"
+}
+[1606490510.388][INFO]: Waiting for pending navigations...
+[1606490510.391][INFO]: Done waiting for pending navigations. Status: ok
+[1606490510.397][INFO]: Waiting for pending navigations...
+[1606490510.398][INFO]: Done waiting for pending navigations. Status: ok
+[1606490510.398][INFO]: [dd38b3b3dcd0cbd7abc9297bb2088ceb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Register')]"}
+  (Session info: chrome=87.0.4280.67)
+[1606490510.607][INFO]: [dd38b3b3dcd0cbd7abc9297bb2088ceb] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[contains(text(),'Register')]"
+}
+[1606490510.608][INFO]: Waiting for pending navigations...
+[1606490510.609][INFO]: Done waiting for pending navigations. Status: ok
+[1606490510.618][INFO]: Waiting for pending navigations...
+[1606490510.619][INFO]: Done waiting for pending navigations. Status: ok
+[1606490510.619][INFO]: [dd38b3b3dcd0cbd7abc9297bb2088ceb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Register')]"}
+  (Session info: chrome=87.0.4280.67)
+[1606490510.826][INFO]: [dd38b3b3dcd0cbd7abc9297bb2088ceb] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[contains(text(),'Register')]"
+}
+[1606490510.826][INFO]: Waiting for pending navigations...
+[1606490510.827][INFO]: Done waiting for pending navigations. Status: ok
+[1606490510.832][INFO]: Waiting for pending navigations...
+[1606490510.833][INFO]: Done waiting for pending navigations. Status: ok
+[1606490510.833][INFO]: [dd38b3b3dcd0cbd7abc9297bb2088ceb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Register')]"}
+  (Session info: chrome=87.0.4280.67)
+[1606490511.043][INFO]: [dd38b3b3dcd0cbd7abc9297bb2088ceb] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[contains(text(),'Register')]"
+}
+[1606490511.043][INFO]: Waiting for pending navigations...
+[1606490511.045][INFO]: Done waiting for pending navigations. Status: ok
+[1606490511.052][INFO]: Waiting for pending navigations...
+[1606490511.053][INFO]: Done waiting for pending navigations. Status: ok
+[1606490511.053][INFO]: [dd38b3b3dcd0cbd7abc9297bb2088ceb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Register')]"}
+  (Session info: chrome=87.0.4280.67)
+[1606490511.261][INFO]: [dd38b3b3dcd0cbd7abc9297bb2088ceb] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[contains(text(),'Register')]"
+}
+[1606490511.261][INFO]: Waiting for pending navigations...
+[1606490511.262][INFO]: Done waiting for pending navigations. Status: ok
+[1606490511.275][INFO]: Waiting for pending navigations...
+[1606490511.282][INFO]: Done waiting for pending navigations. Status: ok
+[1606490511.282][INFO]: [dd38b3b3dcd0cbd7abc9297bb2088ceb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Register')]"}
+  (Session info: chrome=87.0.4280.67)
+[1606490511.495][INFO]: [dd38b3b3dcd0cbd7abc9297bb2088ceb] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[contains(text(),'Register')]"
+}
+[1606490511.496][INFO]: Waiting for pending navigations...
+[1606490511.497][INFO]: Done waiting for pending navigations. Status: ok
+[1606490511.507][INFO]: Waiting for pending navigations...
+[1606490511.508][INFO]: Done waiting for pending navigations. Status: ok
+[1606490511.508][INFO]: [dd38b3b3dcd0cbd7abc9297bb2088ceb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Register')]"}
+  (Session info: chrome=87.0.4280.67)
+[1606490511.717][INFO]: [dd38b3b3dcd0cbd7abc9297bb2088ceb] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[contains(text(),'Register')]"
+}
+[1606490511.717][INFO]: Waiting for pending navigations...
+[1606490511.719][INFO]: Done waiting for pending navigations. Status: ok
+[1606490511.726][INFO]: Waiting for pending navigations...
+[1606490511.727][INFO]: Done waiting for pending navigations. Status: ok
+[1606490511.727][INFO]: [dd38b3b3dcd0cbd7abc9297bb2088ceb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Register')]"}
+  (Session info: chrome=87.0.4280.67)
+[1606490511.936][INFO]: [dd38b3b3dcd0cbd7abc9297bb2088ceb] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[contains(text(),'Register')]"
+}
+[1606490511.936][INFO]: Waiting for pending navigations...
+[1606490511.938][INFO]: Done waiting for pending navigations. Status: ok
+[1606490511.945][INFO]: Waiting for pending navigations...
+[1606490511.946][INFO]: Done waiting for pending navigations. Status: ok
+[1606490511.946][INFO]: [dd38b3b3dcd0cbd7abc9297bb2088ceb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Register')]"}
+  (Session info: chrome=87.0.4280.67)
+[1606490512.158][INFO]: [dd38b3b3dcd0cbd7abc9297bb2088ceb] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[contains(text(),'Register')]"
+}
+[1606490512.158][INFO]: Waiting for pending navigations...
+[1606490512.159][INFO]: Done waiting for pending navigations. Status: ok
+[1606490512.166][INFO]: Waiting for pending navigations...
+[1606490512.167][INFO]: Done waiting for pending navigations. Status: ok
+[1606490512.167][INFO]: [dd38b3b3dcd0cbd7abc9297bb2088ceb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Register')]"}
+  (Session info: chrome=87.0.4280.67)
+[1606490512.380][INFO]: [dd38b3b3dcd0cbd7abc9297bb2088ceb] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[contains(text(),'Register')]"
+}
+[1606490512.380][INFO]: Waiting for pending navigations...
+[1606490512.382][INFO]: Done waiting for pending navigations. Status: ok
+[1606490512.389][INFO]: Waiting for pending navigations...
+[1606490512.390][INFO]: Done waiting for pending navigations. Status: ok
+[1606490512.390][INFO]: [dd38b3b3dcd0cbd7abc9297bb2088ceb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Register')]"}
+  (Session info: chrome=87.0.4280.67)
+[1606490512.598][INFO]: [dd38b3b3dcd0cbd7abc9297bb2088ceb] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[contains(text(),'Register')]"
+}
+[1606490512.598][INFO]: Waiting for pending navigations...
+[1606490512.600][INFO]: Done waiting for pending navigations. Status: ok
+[1606490512.610][INFO]: Waiting for pending navigations...
+[1606490512.611][INFO]: Done waiting for pending navigations. Status: ok
+[1606490512.611][INFO]: [dd38b3b3dcd0cbd7abc9297bb2088ceb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Register')]"}
+  (Session info: chrome=87.0.4280.67)
+[1606490512.824][INFO]: [dd38b3b3dcd0cbd7abc9297bb2088ceb] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[contains(text(),'Register')]"
+}
+[1606490512.824][INFO]: Waiting for pending navigations...
+[1606490512.825][INFO]: Done waiting for pending navigations. Status: ok
+[1606490512.831][INFO]: Waiting for pending navigations...
+[1606490512.832][INFO]: Done waiting for pending navigations. Status: ok
+[1606490512.832][INFO]: [dd38b3b3dcd0cbd7abc9297bb2088ceb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Register')]"}
+  (Session info: chrome=87.0.4280.67)
+[1606490513.041][INFO]: [dd38b3b3dcd0cbd7abc9297bb2088ceb] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[contains(text(),'Register')]"
+}
+[1606490513.041][INFO]: Waiting for pending navigations...
+[1606490513.045][INFO]: Done waiting for pending navigations. Status: ok
+[1606490513.053][INFO]: Waiting for pending navigations...
+[1606490513.054][INFO]: Done waiting for pending navigations. Status: ok
+[1606490513.054][INFO]: [dd38b3b3dcd0cbd7abc9297bb2088ceb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Register')]"}
+  (Session info: chrome=87.0.4280.67)
+[1606490513.261][INFO]: [dd38b3b3dcd0cbd7abc9297bb2088ceb] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[contains(text(),'Register')]"
+}
+[1606490513.261][INFO]: Waiting for pending navigations...
+[1606490513.261][INFO]: Done waiting for pending navigations. Status: ok
+[1606490513.265][INFO]: Waiting for pending navigations...
+[1606490513.266][INFO]: Done waiting for pending navigations. Status: ok
+[1606490513.266][INFO]: [dd38b3b3dcd0cbd7abc9297bb2088ceb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Register')]"}
+  (Session info: chrome=87.0.4280.67)
+[1606490513.476][INFO]: [dd38b3b3dcd0cbd7abc9297bb2088ceb] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[contains(text(),'Register')]"
+}
+[1606490513.476][INFO]: Waiting for pending navigations...
+[1606490513.477][INFO]: Done waiting for pending navigations. Status: ok
+[1606490513.482][INFO]: Waiting for pending navigations...
+[1606490513.483][INFO]: Done waiting for pending navigations. Status: ok
+[1606490513.483][INFO]: [dd38b3b3dcd0cbd7abc9297bb2088ceb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Register')]"}
+  (Session info: chrome=87.0.4280.67)
+[1606490513.694][INFO]: [dd38b3b3dcd0cbd7abc9297bb2088ceb] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[contains(text(),'Register')]"
+}
+[1606490513.694][INFO]: Waiting for pending navigations...
+[1606490513.695][INFO]: Done waiting for pending navigations. Status: ok
+[1606490513.700][INFO]: Waiting for pending navigations...
+[1606490513.701][INFO]: Done waiting for pending navigations. Status: ok
+[1606490513.701][INFO]: [dd38b3b3dcd0cbd7abc9297bb2088ceb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Register')]"}
+  (Session info: chrome=87.0.4280.67)
+[1606490513.917][INFO]: [dd38b3b3dcd0cbd7abc9297bb2088ceb] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[contains(text(),'Register')]"
+}
+[1606490513.917][INFO]: Waiting for pending navigations...
+[1606490513.920][INFO]: Done waiting for pending navigations. Status: ok
+[1606490513.935][INFO]: Waiting for pending navigations...
+[1606490513.936][INFO]: Done waiting for pending navigations. Status: ok
+[1606490513.936][INFO]: [dd38b3b3dcd0cbd7abc9297bb2088ceb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Register')]"}
+  (Session info: chrome=87.0.4280.67)
+[1606490514.151][INFO]: [dd38b3b3dcd0cbd7abc9297bb2088ceb] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1606490514.151][INFO]: Waiting for pending navigations...
+[1606490514.151][INFO]: Done waiting for pending navigations. Status: ok
+[1606490514.164][INFO]: Waiting for pending navigations...
+[1606490514.165][INFO]: Done waiting for pending navigations. Status: ok
+[1606490514.165][INFO]: [dd38b3b3dcd0cbd7abc9297bb2088ceb] RESPONSE ExecuteScript "\u003Chtml lang=\"en-US\" class=\"js jetpack-lazy-images-js-enabled\">\u003Chead>\u003Clink rel=\"stylesheet\" id=\"tve_leads_forms-css\" type=\"text/css\" href=\"//ultimateqa.com/wp-content/plugins/thrive-leads/editor-layo..."
+[1606490514.225][INFO]: [dd38b3b3dcd0cbd7abc9297bb2088ceb] COMMAND Screenshot {
+
+}
+[1606490514.225][INFO]: Waiting for pending navigations...
+[1606490514.226][INFO]: Done waiting for pending navigations. Status: ok
+[1606490515.100][INFO]: Waiting for pending navigations...
+[1606490515.102][INFO]: Done waiting for pending navigations. Status: ok
+[1606490515.102][INFO]: [dd38b3b3dcd0cbd7abc9297bb2088ceb] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAACqwAAAViCAYAAAB9RE8/AAABLGlDQ1BTa2lhAAAokX2RPUvDUBSGH4uLVURQ0cEhTrr40VaqBR1ssUXcWoXqlqahiG0MaUT3ri7+A2dnR39AZwUnBxd3QXBwqe9NhwSknsvJ++TNuTfn3gupRRSpGeh4YVCtFK366ZlFImyn6zM6x..."
+[1606490515.201][INFO]: [dd38b3b3dcd0cbd7abc9297bb2088ceb] COMMAND Quit {
+
+}
+[1606490515.251][INFO]: [dd38b3b3dcd0cbd7abc9297bb2088ceb] RESPONSE Quit

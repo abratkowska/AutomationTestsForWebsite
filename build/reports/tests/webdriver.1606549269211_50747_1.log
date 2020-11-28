@@ -1,0 +1,366 @@
+[1606549269.422][INFO]: Starting ChromeDriver 87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355}) on port 10027
+[1606549269.422][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1606549269.674][INFO]: [a5eef0ed805456330c459853f459ea5e] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "/Users/aleksandrabratkowska/Desktop/RecruitmentTask/build/downloads",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "/Users/aleksandrabratkowska/Desktop/RecruitmentTask/build/downloads",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1606549269.675][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/Users/aleksandrabratkowska/Desktop/RecruitmentTask/build/downloads"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1606549269.676][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1606549269.676][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/x8/2p4jrcr96q94g0q7grwl03_c0000gn/T/.com.google.Chrome.evVaHX data:,
+[1606549270.817][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1606549270.834][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1606549270.865][INFO]: [a5eef0ed805456330c459853f459ea5e] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "87.0.4280.67",
+      "chrome": {
+         "chromedriverVersion": "87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355})",
+         "userDataDir": "/var/folders/x8/2p4jrcr96q94g0q7grwl03_c0000gn/T/.com.google.Chrome.evVaHX"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:54446"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac os x",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "a5eef0ed805456330c459853f459ea5e"
+}
+[1606549270.952][INFO]: [a5eef0ed805456330c459853f459ea5e] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1606549270.953][INFO]: Waiting for pending navigations...
+[1606549270.953][INFO]: Done waiting for pending navigations. Status: ok
+[1606549271.058][INFO]: Waiting for pending navigations...
+[1606549271.059][INFO]: Done waiting for pending navigations. Status: ok
+[1606549271.059][INFO]: [a5eef0ed805456330c459853f459ea5e] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 22,
+   "y": 47
+}
+[1606549271.074][INFO]: [a5eef0ed805456330c459853f459ea5e] COMMAND Navigate {
+   "url": "https://www.phptravels.net/"
+}
+[1606549271.074][INFO]: Waiting for pending navigations...
+[1606549271.075][INFO]: Done waiting for pending navigations. Status: ok
+[1606549271.722][INFO]: Waiting for pending navigations...
+[1606549271.735][INFO]: Done waiting for pending navigations. Status: ok
+[1606549271.735][INFO]: [a5eef0ed805456330c459853f459ea5e] RESPONSE Navigate
+[1606549278.310][INFO]: [a5eef0ed805456330c459853f459ea5e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "div[class='dropdown dropdown-login dropdown-tab show']"
+}
+[1606549278.315][INFO]: Waiting for pending navigations...
+[1606549278.316][INFO]: Done waiting for pending navigations. Status: ok
+[1606549278.328][INFO]: Waiting for pending navigations...
+[1606549278.328][INFO]: Done waiting for pending navigations. Status: ok
+[1606549278.328][INFO]: [a5eef0ed805456330c459853f459ea5e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"div[class='dropdown dropdown-login dropdown-tab show']"}
+  (Session info: chrome=87.0.4280.67)
+[1606549278.552][INFO]: [a5eef0ed805456330c459853f459ea5e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "div[class='dropdown dropdown-login dropdown-tab show']"
+}
+[1606549278.552][INFO]: Waiting for pending navigations...
+[1606549278.552][INFO]: Done waiting for pending navigations. Status: ok
+[1606549278.556][INFO]: Waiting for pending navigations...
+[1606549278.557][INFO]: Done waiting for pending navigations. Status: ok
+[1606549278.557][INFO]: [a5eef0ed805456330c459853f459ea5e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"div[class='dropdown dropdown-login dropdown-tab show']"}
+  (Session info: chrome=87.0.4280.67)
+[1606549278.765][INFO]: [a5eef0ed805456330c459853f459ea5e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "div[class='dropdown dropdown-login dropdown-tab show']"
+}
+[1606549278.765][INFO]: Waiting for pending navigations...
+[1606549278.766][INFO]: Done waiting for pending navigations. Status: ok
+[1606549278.770][INFO]: Waiting for pending navigations...
+[1606549278.771][INFO]: Done waiting for pending navigations. Status: ok
+[1606549278.771][INFO]: [a5eef0ed805456330c459853f459ea5e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"div[class='dropdown dropdown-login dropdown-tab show']"}
+  (Session info: chrome=87.0.4280.67)
+[1606549278.981][INFO]: [a5eef0ed805456330c459853f459ea5e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "div[class='dropdown dropdown-login dropdown-tab show']"
+}
+[1606549278.981][INFO]: Waiting for pending navigations...
+[1606549278.982][INFO]: Done waiting for pending navigations. Status: ok
+[1606549278.990][INFO]: Waiting for pending navigations...
+[1606549278.991][INFO]: Done waiting for pending navigations. Status: ok
+[1606549278.991][INFO]: [a5eef0ed805456330c459853f459ea5e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"div[class='dropdown dropdown-login dropdown-tab show']"}
+  (Session info: chrome=87.0.4280.67)
+[1606549279.201][INFO]: [a5eef0ed805456330c459853f459ea5e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "div[class='dropdown dropdown-login dropdown-tab show']"
+}
+[1606549279.201][INFO]: Waiting for pending navigations...
+[1606549279.202][INFO]: Done waiting for pending navigations. Status: ok
+[1606549279.211][INFO]: Waiting for pending navigations...
+[1606549279.212][INFO]: Done waiting for pending navigations. Status: ok
+[1606549279.212][INFO]: [a5eef0ed805456330c459853f459ea5e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"div[class='dropdown dropdown-login dropdown-tab show']"}
+  (Session info: chrome=87.0.4280.67)
+[1606549279.423][INFO]: [a5eef0ed805456330c459853f459ea5e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "div[class='dropdown dropdown-login dropdown-tab show']"
+}
+[1606549279.423][INFO]: Waiting for pending navigations...
+[1606549279.425][INFO]: Done waiting for pending navigations. Status: ok
+[1606549279.433][INFO]: Waiting for pending navigations...
+[1606549279.434][INFO]: Done waiting for pending navigations. Status: ok
+[1606549279.434][INFO]: [a5eef0ed805456330c459853f459ea5e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"div[class='dropdown dropdown-login dropdown-tab show']"}
+  (Session info: chrome=87.0.4280.67)
+[1606549279.648][INFO]: [a5eef0ed805456330c459853f459ea5e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "div[class='dropdown dropdown-login dropdown-tab show']"
+}
+[1606549279.648][INFO]: Waiting for pending navigations...
+[1606549279.650][INFO]: Done waiting for pending navigations. Status: ok
+[1606549279.658][INFO]: Waiting for pending navigations...
+[1606549279.659][INFO]: Done waiting for pending navigations. Status: ok
+[1606549279.659][INFO]: [a5eef0ed805456330c459853f459ea5e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"div[class='dropdown dropdown-login dropdown-tab show']"}
+  (Session info: chrome=87.0.4280.67)
+[1606549279.869][INFO]: [a5eef0ed805456330c459853f459ea5e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "div[class='dropdown dropdown-login dropdown-tab show']"
+}
+[1606549279.869][INFO]: Waiting for pending navigations...
+[1606549279.871][INFO]: Done waiting for pending navigations. Status: ok
+[1606549279.880][INFO]: Waiting for pending navigations...
+[1606549279.881][INFO]: Done waiting for pending navigations. Status: ok
+[1606549279.881][INFO]: [a5eef0ed805456330c459853f459ea5e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"div[class='dropdown dropdown-login dropdown-tab show']"}
+  (Session info: chrome=87.0.4280.67)
+[1606549280.091][INFO]: [a5eef0ed805456330c459853f459ea5e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "div[class='dropdown dropdown-login dropdown-tab show']"
+}
+[1606549280.091][INFO]: Waiting for pending navigations...
+[1606549280.092][INFO]: Done waiting for pending navigations. Status: ok
+[1606549280.098][INFO]: Waiting for pending navigations...
+[1606549280.099][INFO]: Done waiting for pending navigations. Status: ok
+[1606549280.099][INFO]: [a5eef0ed805456330c459853f459ea5e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"div[class='dropdown dropdown-login dropdown-tab show']"}
+  (Session info: chrome=87.0.4280.67)
+[1606549280.312][INFO]: [a5eef0ed805456330c459853f459ea5e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "div[class='dropdown dropdown-login dropdown-tab show']"
+}
+[1606549280.312][INFO]: Waiting for pending navigations...
+[1606549280.313][INFO]: Done waiting for pending navigations. Status: ok
+[1606549280.319][INFO]: Waiting for pending navigations...
+[1606549280.320][INFO]: Done waiting for pending navigations. Status: ok
+[1606549280.320][INFO]: [a5eef0ed805456330c459853f459ea5e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"div[class='dropdown dropdown-login dropdown-tab show']"}
+  (Session info: chrome=87.0.4280.67)
+[1606549280.534][INFO]: [a5eef0ed805456330c459853f459ea5e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "div[class='dropdown dropdown-login dropdown-tab show']"
+}
+[1606549280.534][INFO]: Waiting for pending navigations...
+[1606549280.535][INFO]: Done waiting for pending navigations. Status: ok
+[1606549280.542][INFO]: Waiting for pending navigations...
+[1606549280.542][INFO]: Done waiting for pending navigations. Status: ok
+[1606549280.542][INFO]: [a5eef0ed805456330c459853f459ea5e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"div[class='dropdown dropdown-login dropdown-tab show']"}
+  (Session info: chrome=87.0.4280.67)
+[1606549280.754][INFO]: [a5eef0ed805456330c459853f459ea5e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "div[class='dropdown dropdown-login dropdown-tab show']"
+}
+[1606549280.754][INFO]: Waiting for pending navigations...
+[1606549280.755][INFO]: Done waiting for pending navigations. Status: ok
+[1606549280.762][INFO]: Waiting for pending navigations...
+[1606549280.762][INFO]: Done waiting for pending navigations. Status: ok
+[1606549280.762][INFO]: [a5eef0ed805456330c459853f459ea5e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"div[class='dropdown dropdown-login dropdown-tab show']"}
+  (Session info: chrome=87.0.4280.67)
+[1606549280.971][INFO]: [a5eef0ed805456330c459853f459ea5e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "div[class='dropdown dropdown-login dropdown-tab show']"
+}
+[1606549280.971][INFO]: Waiting for pending navigations...
+[1606549280.972][INFO]: Done waiting for pending navigations. Status: ok
+[1606549280.978][INFO]: Waiting for pending navigations...
+[1606549280.979][INFO]: Done waiting for pending navigations. Status: ok
+[1606549280.979][INFO]: [a5eef0ed805456330c459853f459ea5e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"div[class='dropdown dropdown-login dropdown-tab show']"}
+  (Session info: chrome=87.0.4280.67)
+[1606549281.187][INFO]: [a5eef0ed805456330c459853f459ea5e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "div[class='dropdown dropdown-login dropdown-tab show']"
+}
+[1606549281.188][INFO]: Waiting for pending navigations...
+[1606549281.189][INFO]: Done waiting for pending navigations. Status: ok
+[1606549281.197][INFO]: Waiting for pending navigations...
+[1606549281.198][INFO]: Done waiting for pending navigations. Status: ok
+[1606549281.198][INFO]: [a5eef0ed805456330c459853f459ea5e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"div[class='dropdown dropdown-login dropdown-tab show']"}
+  (Session info: chrome=87.0.4280.67)
+[1606549281.409][INFO]: [a5eef0ed805456330c459853f459ea5e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "div[class='dropdown dropdown-login dropdown-tab show']"
+}
+[1606549281.409][INFO]: Waiting for pending navigations...
+[1606549281.410][INFO]: Done waiting for pending navigations. Status: ok
+[1606549281.417][INFO]: Waiting for pending navigations...
+[1606549281.418][INFO]: Done waiting for pending navigations. Status: ok
+[1606549281.418][INFO]: [a5eef0ed805456330c459853f459ea5e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"div[class='dropdown dropdown-login dropdown-tab show']"}
+  (Session info: chrome=87.0.4280.67)
+[1606549281.631][INFO]: [a5eef0ed805456330c459853f459ea5e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "div[class='dropdown dropdown-login dropdown-tab show']"
+}
+[1606549281.631][INFO]: Waiting for pending navigations...
+[1606549281.633][INFO]: Done waiting for pending navigations. Status: ok
+[1606549281.641][INFO]: Waiting for pending navigations...
+[1606549281.642][INFO]: Done waiting for pending navigations. Status: ok
+[1606549281.642][INFO]: [a5eef0ed805456330c459853f459ea5e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"div[class='dropdown dropdown-login dropdown-tab show']"}
+  (Session info: chrome=87.0.4280.67)
+[1606549281.851][INFO]: [a5eef0ed805456330c459853f459ea5e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "div[class='dropdown dropdown-login dropdown-tab show']"
+}
+[1606549281.851][INFO]: Waiting for pending navigations...
+[1606549281.852][INFO]: Done waiting for pending navigations. Status: ok
+[1606549281.863][INFO]: Waiting for pending navigations...
+[1606549281.865][INFO]: Done waiting for pending navigations. Status: ok
+[1606549281.865][INFO]: [a5eef0ed805456330c459853f459ea5e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"div[class='dropdown dropdown-login dropdown-tab show']"}
+  (Session info: chrome=87.0.4280.67)
+[1606549282.074][INFO]: [a5eef0ed805456330c459853f459ea5e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "div[class='dropdown dropdown-login dropdown-tab show']"
+}
+[1606549282.074][INFO]: Waiting for pending navigations...
+[1606549282.075][INFO]: Done waiting for pending navigations. Status: ok
+[1606549282.081][INFO]: Waiting for pending navigations...
+[1606549282.082][INFO]: Done waiting for pending navigations. Status: ok
+[1606549282.082][INFO]: [a5eef0ed805456330c459853f459ea5e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"div[class='dropdown dropdown-login dropdown-tab show']"}
+  (Session info: chrome=87.0.4280.67)
+[1606549282.301][INFO]: [a5eef0ed805456330c459853f459ea5e] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1606549282.301][INFO]: Waiting for pending navigations...
+[1606549282.302][INFO]: Done waiting for pending navigations. Status: ok
+[1606549282.331][INFO]: Waiting for pending navigations...
+[1606549282.331][INFO]: Done waiting for pending navigations. Status: ok
+[1606549282.331][INFO]: [a5eef0ed805456330c459853f459ea5e] RESPONSE ExecuteScript "\u003Chtml lang=\"en\">\u003Chead>\n    \u003C!-- Google Tag Manager -->\n\u003Cscript type=\"text/javascript\" async=\"\" src=\"https://d10lpsik1i8c69.cloudfront.net/w.js\">\u003C/script>\u003Cscript type=\"text/javascript\" async=\"\" src=..."
+[1606549282.409][INFO]: [a5eef0ed805456330c459853f459ea5e] COMMAND Screenshot {
+
+}
+[1606549282.409][INFO]: Waiting for pending navigations...
+[1606549282.410][INFO]: Done waiting for pending navigations. Status: ok
+[1606549283.640][INFO]: Waiting for pending navigations...
+[1606549283.643][INFO]: Done waiting for pending navigations. Status: ok
+[1606549283.643][INFO]: [a5eef0ed805456330c459853f459ea5e] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAACqwAAAViCAYAAAB9RE8/AAABLGlDQ1BTa2lhAAAokX2RPUvDUBSGH4uLVURQ0cEhTrr40VaqBR1ssUXcWoXqlqahiG0MaUT3ri7+A2dnR39AZwUnBxd3QXBwqe9NhwSknsvJ++TNuTfn3gupRRSpGeh4YVCtFK366ZlFImyn6zM6x..."
+[1606549284.032][INFO]: [a5eef0ed805456330c459853f459ea5e] COMMAND Quit {
+
+}
+[1606549284.083][INFO]: [a5eef0ed805456330c459853f459ea5e] RESPONSE Quit

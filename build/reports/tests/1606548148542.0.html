@@ -1,0 +1,281 @@
+<html><head><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>ParaBank | Administration</title>
+		<link href="/parabank/template.css;jsessionid=E310069DC338A55898C1A8C14A24A8AF" rel="stylesheet" type="text/css">
+		<link href="/parabank/style.css;jsessionid=E310069DC338A55898C1A8C14A24A8AF" rel="stylesheet" type="text/css">
+		<script src="/parabank/webjars/angularjs/1.6.9/angular.min.js;jsessionid=E310069DC338A55898C1A8C14A24A8AF"></script>
+	</head>
+
+	<body onload="document.login.username.focus();">
+		<div id="mainPanel">
+			
+				
+					
+
+
+
+<div id="topPanel">
+  <a href="/parabank/admin.htm;jsessionid=E310069DC338A55898C1A8C14A24A8AF"><img src="/parabank/images/clear.gif;jsessionid=E310069DC338A55898C1A8C14A24A8AF" width="56" height="42" border="0" class="admin"></a>
+  <a href="/parabank/index.htm;jsessionid=E310069DC338A55898C1A8C14A24A8AF"><img src="/parabank/images/logo.gif;jsessionid=E310069DC338A55898C1A8C14A24A8AF" alt="ParaBank" width="136" height="31" border="0" class="logo" title="ParaBank"></a>
+  <p class="caption">Experience the difference</p>
+</div>
+<div id="headerPanel" style="background: url(/parabank/images/header-main.jpg;jsessionid=E310069DC338A55898C1A8C14A24A8AF) 0 0 no-repeat;">
+  
+
+
+<ul class="leftmenu">
+  <li class="Solutions">Solutions</li>
+  <li><a href="about.htm;jsessionid=E310069DC338A55898C1A8C14A24A8AF">About Us</a></li>
+  <li><a href="services.htm;jsessionid=E310069DC338A55898C1A8C14A24A8AF">Services</a></li>
+  <li><a href="http://www.parasoft.com/jsp/products.jsp">Products</a></li>
+  <li><a href="http://www.parasoft.com/jsp/pr/contacts.jsp">Locations</a></li>
+  <li><a href="admin.htm;jsessionid=E310069DC338A55898C1A8C14A24A8AF">Admin Page</a></li>
+  
+</ul>
+  
+
+
+<ul class="button">
+  <li class="home"><a href="/parabank/index.htm;jsessionid=E310069DC338A55898C1A8C14A24A8AF">home</a></li>
+  <li class="aboutus"><a href="about.htm;jsessionid=E310069DC338A55898C1A8C14A24A8AF">about</a></li>
+  <li class="contact"><a href="contact.htm;jsessionid=E310069DC338A55898C1A8C14A24A8AF">contact</a></li>
+</ul>
+</div>
+				
+				
+			
+			<div id="bodyPanel">
+				<div id="leftPanel">
+					
+						
+							
+
+
+<h2>Customer Login</h2>
+<div id="loginPanel">
+  <form name="login" action="/parabank/login.htm;jsessionid=E310069DC338A55898C1A8C14A24A8AF" method="POST">
+    
+    <p><b>Username</b></p>
+    <div class="login"><input type="text" class="input" name="username"></div>
+    <p><b>Password</b></p>
+    <div class="login"><input type="password" class="input" name="password"></div>
+    <div class="login"><input type="submit" class="button" value="Log In"></div>
+  </form>
+  <p><a href="lookup.htm;jsessionid=E310069DC338A55898C1A8C14A24A8AF">Forgot login info?</a></p>
+  <p><a href="register.htm;jsessionid=E310069DC338A55898C1A8C14A24A8AF">Register</a></p>
+</div>
+						
+						
+					
+				</div>
+				<div id="rightPanel">
+					
+
+
+
+<h1 class="title">
+	Administration
+</h1>
+
+	
+	
+
+
+<table class="table_hidden" style="width: 100%">
+  <tbody><tr>
+    <td width="50%">
+    	<h3>
+			Database
+		</h3>
+		<form name="initializeDB" action="/parabank/db.htm;jsessionid=E310069DC338A55898C1A8C14A24A8AF" method="POST">
+			<table class="form2" style="width: 100%;">
+				<tbody><tr>
+					<td align="center">
+						<button type="submit" class="button" name="action" value="INIT">
+							Initialize
+						</button>
+					</td>
+					<td align="center">
+						<button type="submit" class="button" name="action" value="CLEAN">
+							Clean
+						</button>
+				</td></tr>
+			</tbody></table>
+		</form>
+	</td>
+    <td width="50%">
+		<h3>
+			JMS Service
+		</h3>
+		<form name="toggleJms" action="/parabank/jms.htm;jsessionid=E310069DC338A55898C1A8C14A24A8AF" method="POST">
+			<input type="hidden" name="shutdown" value="true">
+			<table class="form2" style="width: 100%;">
+				<tbody><tr>
+					<td align="right" width="30%"><b>Status:</b></td>
+					<td width="20%">Running</td>
+					<td width="50%"><input type="submit" class="button" value="Shutdown"></td>
+				</tr>
+			</tbody></table>
+		</form>
+    </td>
+  </tr>
+</tbody></table>
+<br>
+
+<form id="adminForm" action="admin.htm" method="post">
+
+	<h3>
+		Data Access Mode
+	</h3>
+			
+	<table class="form" style="width: 100%">
+		<tbody><tr>
+			<td colspan="1" align="center" width="50%">
+			  <input id="accessMode1" name="accessMode" class="input" type="radio" value="soap"><br>SOAP<br>&nbsp;
+			</td>
+			<td colspan="1" align="center" width="50%">
+			  <input id="accessMode2" name="accessMode" class="input" type="radio" value="restxml"><br>REST&nbsp;(XML)<br>&nbsp;
+			</td>
+		</tr>
+		<tr>
+			<td colspan="1" align="center" width="50%">
+			  <input id="accessMode3" name="accessMode" class="input" type="radio" value="restjson"><br>REST&nbsp;(JSON)</td>
+			<td colspan="1" align="center" width="50%">
+			  <input id="accessMode4" name="accessMode" class="input" type="radio" value="jdbc" checked="checked"><br>JDBC*</td>
+		</tr>
+		<tr> <td colspan="2" align="left" width="100%"><hr>* - Default Data Access Mode.</td> 
+		</tr>
+	</tbody></table>
+	<br>
+
+	<h3>
+		Web Service
+	</h3>
+
+	<table class="form2">
+		<tbody><tr>
+			<td colspan="2"><b>ParaBank Service</b>[&nbsp;
+				<a href="services/ParaBank;jsessionid=E310069DC338A55898C1A8C14A24A8AF?wsdl">WSDL</a>&nbsp;|&nbsp;<a href="services/bank;jsessionid=E310069DC338A55898C1A8C14A24A8AF?_wadl&amp;_type=xml">WADL</a>&nbsp;|&nbsp;<a href="/parabank/api-docs/index.html;jsessionid=E310069DC338A55898C1A8C14A24A8AF">SWAGGER</a>&nbsp;]</td>
+				<!-- Not ready yet |&nbsp;<a href="/parabank/raml/raml.api;jsessionid=E310069DC338A55898C1A8C14A24A8AF">RAML</a>&nbsp; -->
+		</tr>
+		<tr>
+			<td align="right" width="30%"><b>SOAP Endpoint:</b></td>
+			<td width="70%"><input id="soapEndpoint" name="soapEndpoint" class="inputLarge" type="text" value=""></td>
+		</tr>
+		<tr>
+			<td align="right" width="30%"><b>REST Endpoint:</b></td>
+			<td width="70%"><input id="restEndpoint" name="restEndpoint" class="inputLarge" type="text" value=""></td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td colspan="2">(leave blank to use default endpoint)</td>
+		</tr>
+
+		<tr>
+			<td colspan="2"><hr></td>
+		</tr>
+		<tr>
+			<td colspan="2"><b>LoanProcessor Service</b>
+				[ <a href="services/LoanProcessor;jsessionid=E310069DC338A55898C1A8C14A24A8AF?wsdl">WSDL</a> ]</td>
+		</tr>
+		<tr>
+			<td align="right" width="30%"><b>Endpoint:</b></td>
+			<td width="70%"><input id="endpoint" name="endpoint" class="inputLarge" type="text" value=""></td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td colspan="2">(leave blank to use default endpoint)</td>
+		</tr>
+	</tbody></table>
+	<br>
+
+	<h3>
+		Application Settings
+	</h3>
+	<table class="form2">
+		<tbody><tr>
+			<td align="right" width="30%"><b>Init. Balance:</b> $</td>
+			<td width="20%"><input id="initialBalance" name="initialBalance" class="input" type="text" value="515.50"></td>
+			<td width="50%"></td>
+		</tr>
+		<tr>
+			<td align="right" width="30%"><b>Min. Balance:</b> $</td>
+			<td width="20%"><input id="minimumBalance" name="minimumBalance" class="input" type="text" value="100.00"></td>
+			<td width="50%"></td>
+		</tr>
+		<tr>
+			<td colspan="3"><hr></td>
+		</tr>
+		<tr>
+			<td align="right" width="30%"><b>Loan Provider:</b></td>
+			<td width="20%"><select id="loanProvider" name="loanProvider" class="input">
+					
+						
+						<option value="jms">JMS</option>
+					
+						
+						<option value="ws" selected="selected">Web Service</option>
+					
+						
+						<option value="local">Local</option>
+					
+				</select></td>
+			<td width="50%"></td>
+		</tr>
+		<tr>
+			<td align="right" width="30%"><b>Loan Processor:</b></td>
+			<td width="20%"><select id="loanProcessor" name="loanProcessor" class="input">
+					
+						
+						<option value="funds" selected="selected">Available Funds</option>
+					
+						
+						<option value="down">Down Payment</option>
+					
+						
+						<option value="combined">Combined</option>
+					
+				</select></td>
+			<td width="50%"></td>
+		</tr>
+		<tr>
+			<td align="right" width="30%"><b>Threshold:</b></td>
+			<td width="20%"><input id="loanProcessorThreshold" name="loanProcessorThreshold" class="inputSmall" type="text" value="20">%</td>
+			<td width="50%"></td>
+		</tr>
+	</tbody></table>
+
+	<br>
+
+	<input type="submit" class="button" value="Submit">
+
+</form>
+				</div>
+			</div>
+		</div>
+		
+
+
+<div id="footermainPanel">
+  <div id="footerPanel">
+    <ul>
+      <li><a href="/parabank/index.htm;jsessionid=E310069DC338A55898C1A8C14A24A8AF">Home</a>| </li>
+      <li><a href="about.htm;jsessionid=E310069DC338A55898C1A8C14A24A8AF">About Us</a>| </li>
+      <li><a href="services.htm;jsessionid=E310069DC338A55898C1A8C14A24A8AF">Services</a>| </li>
+      <li><a href="http://www.parasoft.com/jsp/products.jsp">Products</a>| </li>
+      <li><a href="http://www.parasoft.com/jsp/pr/contacts.jsp">Locations</a>| </li>
+      <li><a href="http://forums.parasoft.com/">Forum</a>| </li>
+      <li><a href="/parabank/sitemap.htm;jsessionid=E310069DC338A55898C1A8C14A24A8AF">Site Map</a>| </li>
+      <li><a href="contact.htm;jsessionid=E310069DC338A55898C1A8C14A24A8AF">Contact Us</a></li>
+    </ul>
+    <p class="copyright">© Parasoft. All rights reserved.</p>
+    <ul class="visit">
+      <li>Visit us at:</li>
+      <li><a href="http://www.parasoft.com/" target="_blank">www.parasoft.com</a></li>
+    </ul>
+  </div>
+</div>
+	
+
+</body></html>

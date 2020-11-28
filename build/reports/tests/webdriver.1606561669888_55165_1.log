@@ -1,0 +1,366 @@
+[1606561670.126][INFO]: Starting ChromeDriver 87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355}) on port 15956
+[1606561670.126][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1606561670.440][INFO]: [c1e98cf3621f2b5d22b7bd91f7b10ab1] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "/Users/aleksandrabratkowska/Desktop/RecruitmentTask/build/downloads",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "/Users/aleksandrabratkowska/Desktop/RecruitmentTask/build/downloads",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1606561670.441][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/Users/aleksandrabratkowska/Desktop/RecruitmentTask/build/downloads"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1606561670.442][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1606561670.442][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/x8/2p4jrcr96q94g0q7grwl03_c0000gn/T/.com.google.Chrome.BaWs7J data:,
+[1606561671.557][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1606561671.576][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1606561671.606][INFO]: [c1e98cf3621f2b5d22b7bd91f7b10ab1] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "87.0.4280.67",
+      "chrome": {
+         "chromedriverVersion": "87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355})",
+         "userDataDir": "/var/folders/x8/2p4jrcr96q94g0q7grwl03_c0000gn/T/.com.google.Chrome.BaWs7J"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:60803"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac os x",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "c1e98cf3621f2b5d22b7bd91f7b10ab1"
+}
+[1606561671.695][INFO]: [c1e98cf3621f2b5d22b7bd91f7b10ab1] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1606561671.695][INFO]: Waiting for pending navigations...
+[1606561671.696][INFO]: Done waiting for pending navigations. Status: ok
+[1606561671.801][INFO]: Waiting for pending navigations...
+[1606561671.801][INFO]: Done waiting for pending navigations. Status: ok
+[1606561671.801][INFO]: [c1e98cf3621f2b5d22b7bd91f7b10ab1] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 22,
+   "y": 47
+}
+[1606561671.809][INFO]: [c1e98cf3621f2b5d22b7bd91f7b10ab1] COMMAND Navigate {
+   "url": "https://en-gb.facebook.com/"
+}
+[1606561671.809][INFO]: Waiting for pending navigations...
+[1606561671.810][INFO]: Done waiting for pending navigations. Status: ok
+[1606561672.354][INFO]: Waiting for pending navigations...
+[1606561673.073][INFO]: Done waiting for pending navigations. Status: ok
+[1606561673.073][INFO]: [c1e98cf3621f2b5d22b7bd91f7b10ab1] RESPONSE Navigate
+[1606561783.094][INFO]: [c1e98cf3621f2b5d22b7bd91f7b10ab1] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[data-testid='open-registration-form-button']"
+}
+[1606561783.094][INFO]: Waiting for pending navigations...
+[1606561783.095][INFO]: Done waiting for pending navigations. Status: ok
+[1606561783.108][INFO]: Waiting for pending navigations...
+[1606561783.109][INFO]: Done waiting for pending navigations. Status: ok
+[1606561783.109][INFO]: [c1e98cf3621f2b5d22b7bd91f7b10ab1] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[data-testid='open-registration-form-button']"}
+  (Session info: chrome=87.0.4280.67)
+[1606561783.340][INFO]: [c1e98cf3621f2b5d22b7bd91f7b10ab1] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[data-testid='open-registration-form-button']"
+}
+[1606561783.340][INFO]: Waiting for pending navigations...
+[1606561783.340][INFO]: Done waiting for pending navigations. Status: ok
+[1606561783.347][INFO]: Waiting for pending navigations...
+[1606561783.348][INFO]: Done waiting for pending navigations. Status: ok
+[1606561783.348][INFO]: [c1e98cf3621f2b5d22b7bd91f7b10ab1] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[data-testid='open-registration-form-button']"}
+  (Session info: chrome=87.0.4280.67)
+[1606561783.559][INFO]: [c1e98cf3621f2b5d22b7bd91f7b10ab1] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[data-testid='open-registration-form-button']"
+}
+[1606561783.559][INFO]: Waiting for pending navigations...
+[1606561783.560][INFO]: Done waiting for pending navigations. Status: ok
+[1606561783.569][INFO]: Waiting for pending navigations...
+[1606561783.570][INFO]: Done waiting for pending navigations. Status: ok
+[1606561783.570][INFO]: [c1e98cf3621f2b5d22b7bd91f7b10ab1] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[data-testid='open-registration-form-button']"}
+  (Session info: chrome=87.0.4280.67)
+[1606561783.782][INFO]: [c1e98cf3621f2b5d22b7bd91f7b10ab1] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[data-testid='open-registration-form-button']"
+}
+[1606561783.782][INFO]: Waiting for pending navigations...
+[1606561783.784][INFO]: Done waiting for pending navigations. Status: ok
+[1606561783.795][INFO]: Waiting for pending navigations...
+[1606561783.796][INFO]: Done waiting for pending navigations. Status: ok
+[1606561783.796][INFO]: [c1e98cf3621f2b5d22b7bd91f7b10ab1] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[data-testid='open-registration-form-button']"}
+  (Session info: chrome=87.0.4280.67)
+[1606561784.009][INFO]: [c1e98cf3621f2b5d22b7bd91f7b10ab1] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[data-testid='open-registration-form-button']"
+}
+[1606561784.009][INFO]: Waiting for pending navigations...
+[1606561784.011][INFO]: Done waiting for pending navigations. Status: ok
+[1606561784.026][INFO]: Waiting for pending navigations...
+[1606561784.027][INFO]: Done waiting for pending navigations. Status: ok
+[1606561784.027][INFO]: [c1e98cf3621f2b5d22b7bd91f7b10ab1] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[data-testid='open-registration-form-button']"}
+  (Session info: chrome=87.0.4280.67)
+[1606561784.239][INFO]: [c1e98cf3621f2b5d22b7bd91f7b10ab1] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[data-testid='open-registration-form-button']"
+}
+[1606561784.240][INFO]: Waiting for pending navigations...
+[1606561784.242][INFO]: Done waiting for pending navigations. Status: ok
+[1606561784.255][INFO]: Waiting for pending navigations...
+[1606561784.256][INFO]: Done waiting for pending navigations. Status: ok
+[1606561784.256][INFO]: [c1e98cf3621f2b5d22b7bd91f7b10ab1] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[data-testid='open-registration-form-button']"}
+  (Session info: chrome=87.0.4280.67)
+[1606561784.467][INFO]: [c1e98cf3621f2b5d22b7bd91f7b10ab1] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[data-testid='open-registration-form-button']"
+}
+[1606561784.467][INFO]: Waiting for pending navigations...
+[1606561784.468][INFO]: Done waiting for pending navigations. Status: ok
+[1606561784.478][INFO]: Waiting for pending navigations...
+[1606561784.479][INFO]: Done waiting for pending navigations. Status: ok
+[1606561784.479][INFO]: [c1e98cf3621f2b5d22b7bd91f7b10ab1] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[data-testid='open-registration-form-button']"}
+  (Session info: chrome=87.0.4280.67)
+[1606561784.686][INFO]: [c1e98cf3621f2b5d22b7bd91f7b10ab1] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[data-testid='open-registration-form-button']"
+}
+[1606561784.686][INFO]: Waiting for pending navigations...
+[1606561784.687][INFO]: Done waiting for pending navigations. Status: ok
+[1606561784.700][INFO]: Waiting for pending navigations...
+[1606561784.701][INFO]: Done waiting for pending navigations. Status: ok
+[1606561784.701][INFO]: [c1e98cf3621f2b5d22b7bd91f7b10ab1] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[data-testid='open-registration-form-button']"}
+  (Session info: chrome=87.0.4280.67)
+[1606561784.911][INFO]: [c1e98cf3621f2b5d22b7bd91f7b10ab1] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[data-testid='open-registration-form-button']"
+}
+[1606561784.911][INFO]: Waiting for pending navigations...
+[1606561784.912][INFO]: Done waiting for pending navigations. Status: ok
+[1606561784.927][INFO]: Waiting for pending navigations...
+[1606561784.928][INFO]: Done waiting for pending navigations. Status: ok
+[1606561784.928][INFO]: [c1e98cf3621f2b5d22b7bd91f7b10ab1] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[data-testid='open-registration-form-button']"}
+  (Session info: chrome=87.0.4280.67)
+[1606561785.139][INFO]: [c1e98cf3621f2b5d22b7bd91f7b10ab1] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[data-testid='open-registration-form-button']"
+}
+[1606561785.139][INFO]: Waiting for pending navigations...
+[1606561785.141][INFO]: Done waiting for pending navigations. Status: ok
+[1606561785.154][INFO]: Waiting for pending navigations...
+[1606561785.155][INFO]: Done waiting for pending navigations. Status: ok
+[1606561785.155][INFO]: [c1e98cf3621f2b5d22b7bd91f7b10ab1] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[data-testid='open-registration-form-button']"}
+  (Session info: chrome=87.0.4280.67)
+[1606561785.367][INFO]: [c1e98cf3621f2b5d22b7bd91f7b10ab1] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[data-testid='open-registration-form-button']"
+}
+[1606561785.367][INFO]: Waiting for pending navigations...
+[1606561785.369][INFO]: Done waiting for pending navigations. Status: ok
+[1606561785.381][INFO]: Waiting for pending navigations...
+[1606561785.382][INFO]: Done waiting for pending navigations. Status: ok
+[1606561785.382][INFO]: [c1e98cf3621f2b5d22b7bd91f7b10ab1] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[data-testid='open-registration-form-button']"}
+  (Session info: chrome=87.0.4280.67)
+[1606561785.593][INFO]: [c1e98cf3621f2b5d22b7bd91f7b10ab1] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[data-testid='open-registration-form-button']"
+}
+[1606561785.599][INFO]: Waiting for pending navigations...
+[1606561785.601][INFO]: Done waiting for pending navigations. Status: ok
+[1606561785.612][INFO]: Waiting for pending navigations...
+[1606561785.613][INFO]: Done waiting for pending navigations. Status: ok
+[1606561785.613][INFO]: [c1e98cf3621f2b5d22b7bd91f7b10ab1] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[data-testid='open-registration-form-button']"}
+  (Session info: chrome=87.0.4280.67)
+[1606561785.825][INFO]: [c1e98cf3621f2b5d22b7bd91f7b10ab1] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[data-testid='open-registration-form-button']"
+}
+[1606561785.825][INFO]: Waiting for pending navigations...
+[1606561785.826][INFO]: Done waiting for pending navigations. Status: ok
+[1606561785.838][INFO]: Waiting for pending navigations...
+[1606561785.839][INFO]: Done waiting for pending navigations. Status: ok
+[1606561785.839][INFO]: [c1e98cf3621f2b5d22b7bd91f7b10ab1] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[data-testid='open-registration-form-button']"}
+  (Session info: chrome=87.0.4280.67)
+[1606561786.051][INFO]: [c1e98cf3621f2b5d22b7bd91f7b10ab1] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[data-testid='open-registration-form-button']"
+}
+[1606561786.052][INFO]: Waiting for pending navigations...
+[1606561786.053][INFO]: Done waiting for pending navigations. Status: ok
+[1606561786.067][INFO]: Waiting for pending navigations...
+[1606561786.068][INFO]: Done waiting for pending navigations. Status: ok
+[1606561786.068][INFO]: [c1e98cf3621f2b5d22b7bd91f7b10ab1] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[data-testid='open-registration-form-button']"}
+  (Session info: chrome=87.0.4280.67)
+[1606561786.277][INFO]: [c1e98cf3621f2b5d22b7bd91f7b10ab1] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[data-testid='open-registration-form-button']"
+}
+[1606561786.277][INFO]: Waiting for pending navigations...
+[1606561786.279][INFO]: Done waiting for pending navigations. Status: ok
+[1606561786.295][INFO]: Waiting for pending navigations...
+[1606561786.296][INFO]: Done waiting for pending navigations. Status: ok
+[1606561786.296][INFO]: [c1e98cf3621f2b5d22b7bd91f7b10ab1] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[data-testid='open-registration-form-button']"}
+  (Session info: chrome=87.0.4280.67)
+[1606561786.509][INFO]: [c1e98cf3621f2b5d22b7bd91f7b10ab1] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[data-testid='open-registration-form-button']"
+}
+[1606561786.509][INFO]: Waiting for pending navigations...
+[1606561786.510][INFO]: Done waiting for pending navigations. Status: ok
+[1606561786.521][INFO]: Waiting for pending navigations...
+[1606561786.522][INFO]: Done waiting for pending navigations. Status: ok
+[1606561786.522][INFO]: [c1e98cf3621f2b5d22b7bd91f7b10ab1] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[data-testid='open-registration-form-button']"}
+  (Session info: chrome=87.0.4280.67)
+[1606561786.734][INFO]: [c1e98cf3621f2b5d22b7bd91f7b10ab1] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[data-testid='open-registration-form-button']"
+}
+[1606561786.734][INFO]: Waiting for pending navigations...
+[1606561786.736][INFO]: Done waiting for pending navigations. Status: ok
+[1606561786.750][INFO]: Waiting for pending navigations...
+[1606561786.751][INFO]: Done waiting for pending navigations. Status: ok
+[1606561786.751][INFO]: [c1e98cf3621f2b5d22b7bd91f7b10ab1] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[data-testid='open-registration-form-button']"}
+  (Session info: chrome=87.0.4280.67)
+[1606561786.960][INFO]: [c1e98cf3621f2b5d22b7bd91f7b10ab1] COMMAND FindElement {
+   "using": "xpath",
+   "value": "a[data-testid='open-registration-form-button']"
+}
+[1606561786.960][INFO]: Waiting for pending navigations...
+[1606561786.961][INFO]: Done waiting for pending navigations. Status: ok
+[1606561786.977][INFO]: Waiting for pending navigations...
+[1606561786.978][INFO]: Done waiting for pending navigations. Status: ok
+[1606561786.978][INFO]: [c1e98cf3621f2b5d22b7bd91f7b10ab1] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"a[data-testid='open-registration-form-button']"}
+  (Session info: chrome=87.0.4280.67)
+[1606561787.199][INFO]: [c1e98cf3621f2b5d22b7bd91f7b10ab1] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1606561787.199][INFO]: Waiting for pending navigations...
+[1606561787.200][INFO]: Done waiting for pending navigations. Status: ok
+[1606561787.221][INFO]: Waiting for pending navigations...
+[1606561787.221][INFO]: Done waiting for pending navigations. Status: ok
+[1606561787.222][INFO]: [c1e98cf3621f2b5d22b7bd91f7b10ab1] RESPONSE ExecuteScript "\u003Chtml lang=\"en\" id=\"facebook\" class=\"tinyViewport tinyHeight\">\u003Chead>\u003Cmeta charset=\"utf-8\">\u003Cmeta name=\"referrer\" content=\"origin-when-crossorigin\" id=\"meta_referrer\">\u003Cscript nonce=\"\">window._cstart=..."
+[1606561787.289][INFO]: [c1e98cf3621f2b5d22b7bd91f7b10ab1] COMMAND Screenshot {
+
+}
+[1606561787.289][INFO]: Waiting for pending navigations...
+[1606561787.290][INFO]: Done waiting for pending navigations. Status: ok
+[1606561787.786][INFO]: Waiting for pending navigations...
+[1606561787.786][INFO]: Done waiting for pending navigations. Status: ok
+[1606561787.786][INFO]: [c1e98cf3621f2b5d22b7bd91f7b10ab1] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAACqwAAAMKCAYAAAD6M/cyAAABLGlDQ1BTa2lhAAAokX2RPUvDUBSGH4uLVURQ0cEhTrr40VaqBR1ssUXcWoXqlqahiG0MaUT3ri7+A2dnR39AZwUnBxd3QXBwqe9NhwSknsvJ++TNuTfn3gupRRSpGeh4YVCtFK366ZlFImyn6zM6x..."
+[1606561787.840][INFO]: [c1e98cf3621f2b5d22b7bd91f7b10ab1] COMMAND Quit {
+
+}
+[1606561787.892][INFO]: [c1e98cf3621f2b5d22b7bd91f7b10ab1] RESPONSE Quit
