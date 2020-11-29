@@ -8,14 +8,13 @@ import org.openqa.selenium.WebElement;
 
 import static com.codeborne.selenide.Selenide.$;
 
-public class SignUpPage {
+public class RegisterPage {
 
     private SelenideElement
             buttonRegister = $(By.cssSelector("button[class='btn btn-default button button-medium']")),
             titleCheckbox = $(By.cssSelector("input[id='id_gender2']")),
             inputName = $(By.cssSelector("input[id='customer_firstname']")),
             inputLastName = $(By.cssSelector("input[id='customer_lastname']")),
-            inputEmail =$(By.cssSelector("input[id='email']")),
             inputPassword = $(By.cssSelector("input[id='passwd']")),
             dayOfBirth = $(By.cssSelector("select[id='days']")),
             monthOfBirth = $(By.cssSelector("select[id='months']")),
@@ -27,9 +26,9 @@ public class SignUpPage {
             inputPhone = $(By.cssSelector("input[id='phone_mobile']")),
             myAccountPage = $(By.xpath("//h1[@class='page-heading' and contains(text(),'My account')]")),
             alertErrorPassword = $(By.xpath("//div[@class='alert alert-danger']/ol/li/b[contains(text(),'passwd')]")),
-            errorMessageWhenIsNoValue = $(By.xpath("//div[@class='alert alert-danger']/p[contains(text(),'There are 8 errors')]"));
-
-
+            errorMessageWhenIsNoValue = $(By.xpath("//div[@class='alert alert-danger']/p[contains(text(),'There are 8 errors')]")),
+            errorMessageIncorrectLastName = $(By.xpath("//div[@class='alert alert-danger']/ol/li/b[contains(text(),'lastname')]")),
+            errorMessageIncorrectName = $(By.xpath("//div[@class='alert alert-danger']/ol/li/b[contains(text(),'firstname')]"));
 
     public boolean checkIfUserIsOnSignUpPage() {
         buttonRegister.shouldBe(Condition.exist);
@@ -79,5 +78,14 @@ public class SignUpPage {
         return true;
     }
 
+    public boolean checkIfAlertWithIncorrectNameIsShowing(){
+        errorMessageIncorrectName.shouldBe(Condition.visible);
+        return true;
+    }
+
+    public boolean checkIfAlertWithIncorrectLastNameIsShowing(){
+        errorMessageIncorrectLastName.shouldBe(Condition.visible);
+        return true;
+    }
 }
 

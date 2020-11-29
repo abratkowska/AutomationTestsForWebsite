@@ -34,7 +34,6 @@ public class MainPage {
         createAccountError.shouldBe(Condition.exist);
         return true;
     }
-
 }
 
 

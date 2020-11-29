@@ -2,11 +2,11 @@ package PageObjects;
 public class PageObjects {
 
     public MainPage mainPage;
-    public SignUpPage signUpPage;
+    public RegisterPage registerPage;
 
     public PageObjects() {
         mainPage = new MainPage();
-        signUpPage = new SignUpPage();
+        registerPage = new RegisterPage();
     }
 }
 

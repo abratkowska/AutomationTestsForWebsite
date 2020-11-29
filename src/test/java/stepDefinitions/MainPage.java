@@ -28,8 +28,6 @@ public class MainPage implements En {
             Then("^I check if alert with information that  email address has already been registered is showing$", () -> {
                 assertThat(pageObjects.mainPage.checkIfAlertAccountErrorExist()).isTrue();
             });
-
-
         }
 }
 
