@@ -27,5 +27,18 @@ public class SignUpPage implements En {
         And("^I check if user is registered to the website$", () -> {
             assertThat(pageObjects.signUpPage.checkIfUserIsRegistered()).isTrue();
         });
+
+        Then("^I check if alert about mandatory password field is showing$", () -> {
+            assertThat(pageObjects.signUpPage.checkIfAlertPasswdRequiersIsShowing()).isTrue();
+        });
+
+        Then("^I click on register button$", () -> {
+            pageObjects.signUpPage.clickOnRegisterButton();
+        });
+
+        Then("^I check if alert message about 8 errors data is showing$", () -> {
+            assertThat(pageObjects.signUpPage.checkIfAlertWhereIsNoValueExist()).isTrue();
+        });
+
     }
 }
