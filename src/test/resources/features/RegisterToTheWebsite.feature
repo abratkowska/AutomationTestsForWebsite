@@ -1,6 +1,7 @@
-Feature: Register  to automationpractice website
+Feature: Register to automationpractice website
 
-  Scenario: Register to the website with required fields
+  @RegisterWitCorrectCredentials
+  Scenario: Register to the website with mandatory fields
     Given User open main page
     And   I click on Sign In button
     And   I enter email address "bratkowskaaleksandra+6@gmail.com" to create an account
