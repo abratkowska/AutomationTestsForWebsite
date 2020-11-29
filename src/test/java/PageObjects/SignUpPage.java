@@ -25,9 +25,7 @@ public class SignUpPage {
             inputCity = $(By.cssSelector("input[id='city']")),
             inputPostCode = $(By.cssSelector("input[id='postcode']")),
             inputPhone = $(By.cssSelector("input[id='phone_mobile']")),
-            myAccountPage = $(By.xpath("//h1[@class='page-heading' and contains(text(),'My account')]")),
-            alertErrorPassword = $(By.xpath("//div[@class='alert alert-danger']/ol/li/b[contains(text(),'passwd')]")),
-            errorMessageWhenIsNoValue = $(By.xpath("//div[@class='alert alert-danger']/p[contains(text(),'There are 8 errors')]"));
+            myAccountPage = $(By.xpath("//h1[@class='page-heading' and contains(text(),'My account')]"));
 
 
     public boolean checkIfUserIsOnSignUpPage() {
@@ -62,19 +60,6 @@ public class SignUpPage {
 
     public boolean checkIfUserIsRegistered(){
         myAccountPage.shouldBe(Condition.visible);
-        return true;
-    }
-
-    public boolean checkIfAlertPasswdRequiersIsShowing(){
-        alertErrorPassword.shouldBe(Condition.visible);
-        return true;
-    }
-
-    public void clickOnRegisterButton(){
-        buttonRegister.click();
-    }
-    public boolean checkIfAlertWhereIsNoValueExist(){
-        errorMessageWhenIsNoValue.shouldBe(Condition.visible);
         return true;
     }
 }

@@ -21,12 +21,8 @@ public class MainPage implements En {
                 pageObjects.mainPage.clickOnSignInButton();
             });
 
-            And("^I enter email address \"([^\"]*)\" to create an account$", (String email) -> {
+            And("^I  enter your email address \"([^\"]*)\" to create an account$", (String email) -> {
                 pageObjects.mainPage.enterEmailAddress(email);
-            });
-
-            Then("^I check if alert with information that  email address has already been registered is showing$", () -> {
-                assertThat(pageObjects.mainPage.checkIfAlertAccountErrorExsist()).isTrue();
             });
 
         }
